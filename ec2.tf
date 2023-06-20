@@ -9,6 +9,6 @@ resource "aws_instance" "new-ec2-server" {
   associate_public_ip_address = true
   user_data                   = file("install-nginx.sh")
   tags = {
-    Name = "${var.env_prefix}-new-ec2-server"
+    Name = "${var.env_prefix}-Nginx-server"
   }
 }
