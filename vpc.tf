@@ -33,7 +33,7 @@ resource "aws_default_route_table" "main-rtb" {
 }
 
 resource "aws_default_security_group" "default-sg" {
-  vpc_id = aws_vpc.new-ec2.id
+  vpc_id = aws_vpc.new-ec2-vpc.id
   ingress {
     from_port   = 22
     to_port     = 22
