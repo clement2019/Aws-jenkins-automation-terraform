@@ -1,1 +1,1 @@
-# Aws-jenkins-automation-terraform
+jenkins provisioing of infra using terraform but actually ruuning the terrsform command inside jenkins peiline called jenkinsfile
